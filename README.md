@@ -26,7 +26,16 @@ This is a dynamic web project which stimulates the real time banking system, all
 1. Deposit
     1. Here we can deposit money
     1. if entered value is less than zero or not a integer then user is prompted a error message
-    1. if we get success message the amount is deposited into your bank account
-    
+    1. if we get success message the amount is deposited into your bank account and reflected in database
+1. Withdraw
+    1. Here we can withdraw money
+    1. if entered value is not an integer, less than zero, or less than his current balance then user is prompted a error messagae
+    1. if we get success message the amount is withdrawn from your bank account and reflected in database
+1. Transer
+    1. Here you can transfer money from your bank account to another.
+    1. if sending bankaccount is not in the database then user is prompted a error message
+    1. if entered value is not an integer, less than zero, or less than his current balance then user is prompted a error messagae
+1. Balance Enquiry
+    1. Here you can check the balance in your bank account
 
 
