@@ -9,7 +9,7 @@ This is a dynamic web project which stimulates the real time banking system, all
 **Front-End Languages :** HTML, CSS, BootStrap, JSP (Java server Pages)\
 **Back-End Language :** Java, Java Servlets (used Session, cookies)\
 **Database :** MySQL\
-**DataBase-Java connector :** JDBC connectinos
+**DataBase-Java connector :** JDBC connectinos\
 **Web-container** : TomCat
 
 # How it works
@@ -37,5 +37,12 @@ This is a dynamic web project which stimulates the real time banking system, all
     1. if entered value is not an integer, less than zero, or less than his current balance then user is prompted a error messagae
 1. Balance Enquiry
     1. Here you can check the balance in your bank account
+
+#Sequrity Managed
+
+1. User should be a registed customer in the bank then only he is given permission to access\
+1. You can only load **login.jsp** file, if you are trying to load any other page the request is atomatically redirected to login.jsp file, that is user can view any page if he successfully completes logging in.\
+1. After logout you can not access the application by pressing vback button.
+
 
 
