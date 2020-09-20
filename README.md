@@ -38,7 +38,7 @@ This is a dynamic web project which stimulates the real time banking system, all
 1. Balance Enquiry
     1. Here you can check the balance in your bank account
 
-#Sequrity Managed
+# Sequrity Managment
 
 1. User should be a registed customer in the bank then only he is given permission to access\
 1. You can only load **login.jsp** file, if you are trying to load any other page the request is atomatically redirected to login.jsp file, that is user can view any page if he successfully completes logging in.\
